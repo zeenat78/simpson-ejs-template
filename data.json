@@ -1,0 +1,16 @@
+{
+  "created_By": {
+    "ticket_Id": "69bdbb08",
+    "created_on": "3/1/2022 2:05:07 PM",
+    "service_engineer": "Not assigned",
+    "status": "OPENED"
+  },
+  "updated_By": {
+    "ticket_Id": "69bdbb08",
+    "updated_on": "3/1/2022 2:05:07 PM",
+    "service_engineer": "Not assigned",
+    "status": "CLOSED"
+  },
+  "engine_no": "1234567",
+  "depot_no": "890643257"
+}
