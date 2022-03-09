@@ -1,6 +1,11 @@
-<%-include("partial/header.ejs")%> <%-include("templates/ticket_created.ejs")%>
-<%-include("templates/ticket_updated.ejs")%>
-<%-include("templates/engine_replacement_by_simpson.ejs")%>
-<%-include("templates/engine_replacement_by_Oem.ejs")%>
-<%-include("templates/engine_replacement_through_SPD_Mode.ejs")%>
-<%-include("templates/engine_replacement_from_Oem_depots.ejs")%>
+<%-include("partial/header.ejs")%>
+<div
+  class="container bg-light shadow d-flex border justify-content-center d-flex flex-column col-8 mt-5 mb-5 rounded-3 py-2 px-5"
+>
+  <%-include("templates/ticket_created.ejs")%>
+  <%-include("templates/engine_replacement_by_Oem.ejs")%>
+  <%-include("templates/engine_replacement_by_simpson.ejs")%>
+  <%-include("templates/engine_replacement_through_SPD_Mode.ejs")%>
+  <%-include("templates/engine_replacement_from_Oem_depots.ejs")%>
+  <%-include("templates/ticket_updated.ejs")%>
+</div>
